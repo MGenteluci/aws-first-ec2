@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ec2-54-224-189-139.compute-1.amazonaws.com',
+      host: 'ec2-18-232-155-246.compute-1.amazonaws.com',
       key: '~/.ssh/first-ec2-instance.pem',
       ref: 'origin/master',
       repo: 'git@github.com:MGenteluci/aws-first-ec2.git',
