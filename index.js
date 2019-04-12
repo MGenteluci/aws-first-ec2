@@ -1,9 +1,8 @@
 const express = require('express');
+const app = express();
 const bodyParser = require('body-parser');
 const authorRoute = require('./app/routes/author');
 const healthRoute = require('./app/routes/health');
-
-const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
